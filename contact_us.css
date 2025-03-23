@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #6a008a;
+}
+
+.logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #6a008a;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #6a008a;
+}
+
+
+/* Footer Styles */
+.footer {
+    background-color: #220c3f;
+    color: white;
+    padding: 40px 50px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-column p,
+.footer-column ul {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: #220c3f;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-bottom hr {
+    border: none;
+    height: 1px;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+}
+
